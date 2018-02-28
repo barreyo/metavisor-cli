@@ -45,9 +45,9 @@ This make target can be used to create a binary for the specified platform, rega
 ### `make docker-build-all`
 Create binaries for Windows, Linux, and Darwin. The binaries will have a suffix indicating which platform they're built for. I.e. `make docker-build-all` outputs:
 
-- metavisor-linux
-- metavisor-darwin
-- metavisor-windows.exe
+- metavisor-Linux
+- metavisor-Darwin
+- metavisor-Windows.exe
 
 ## Licensing
 This project is licensed under the Apache 2.0 license. Please see the `LICENSE` file for full licensing details.

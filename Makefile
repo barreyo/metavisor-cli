@@ -1,9 +1,9 @@
 GOOS_LINUX        := linux
 GOOS_WINDOWS      := windows
 GOOS_DARWIN       := darwin
-OUT_LINUX         := metavisor-linux
-OUT_DARWIN        := metavisor-darwin
-OUT_WINDOWS       := metavisor-windows.exe
+OUT_LINUX         := metavisor-Linux
+OUT_DARWIN        := metavisor-Darwin
+OUT_WINDOWS       := metavisor-Windows.exe
 ARCH              := amd64
 
 ifeq ($(OS),Windows_NT)

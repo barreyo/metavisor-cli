@@ -26,9 +26,9 @@ deploy:
   tag_name: $TRAVIS_TAG
   target_commitish: $TRAVIS_COMMIT
   file:
-    - metavisor-linux
-    - metavisor-darwin
-    - metavisor-windows.exe
+    - metavisor-Linux
+    - metavisor-Darwin
+    - metavisor-Windows.exe
   skip_cleanup: true
   on:
     tags: true
